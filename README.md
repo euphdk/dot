@@ -3,6 +3,7 @@
 ```bash
 git clone --bare git@github.com:euphdk/dot.git $HOME/.dot
 alias config='/usr/bin/git --git-dir=$HOME/.dot/ --work-tree=$HOME'
+config checkout
 config config --local status.showUntrackedFiles no
 ```
 
