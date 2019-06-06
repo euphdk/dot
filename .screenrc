@@ -1,0 +1,18 @@
+hardstatus alwayslastline
+hardstatus string "%{.bW}%-w%{.gW}%n %t%{-}%+w %=%{..G} %{..Y} %Y-%m-%d %c"
+
+shell -bash
+shelltitle '$ |bash'
+
+startup_message off
+
+#attrcolor b ".I"
+
+terminfo * te@:ti@
+termcapinfo xterm|xterms|xs|rxvt ti=\E7\E[?47l
+defscrollback 1024
+
+attrcolor b ".I"
+termcapinfo xterm-256color 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+
+
