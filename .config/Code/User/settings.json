@@ -42,5 +42,6 @@
   "workbench.tips.enabled": false,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.openPositioning": "last",
-  "zenMode.hideLineNumbers": false
+  "zenMode.hideLineNumbers": false,
+  "workbench.startupEditor": "newUntitledFile"
 }
