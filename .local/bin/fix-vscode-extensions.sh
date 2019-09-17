@@ -18,4 +18,5 @@ code --install-extension ms-vscode.sublime-keybindings
 code --install-extension vsciot-vscode.vscode-arduino
 code --install-extension wayou.vscode-todo-highlight
 code --install-extension platformio.platformio-ide
+code --install-extension vscode-yaml
 
