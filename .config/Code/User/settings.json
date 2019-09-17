@@ -1,0 +1,36 @@
+{
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "window.zoomLevel": 0,
+  "jenkins-runner.hostConfigs": {
+    "local": {
+      "url": "http://192.168.56.102",
+      "user": "validate",
+      "password": "validate",
+      "useCrumbIssuer": false
+    }
+  },
+  "jenkins-runner.jobs": {
+    "Codesys-no-space-in-name": {
+      "isDefault": true,
+      "runWith": [
+        "local"
+      ],
+      "name": "Codesys-no-space-in-name",
+    },
+    "fx30again": {
+      "isDefault": false,
+      "runWith": [
+        "local"
+      ],
+      "name": "fx30again",
+    }
+  },
+  "svn.enableProposedApi": "none",
+  "C_Cpp.updateChannel": "Insiders",
+  "extensions.ignoreRecommendations": true,
+  "extensions.showRecommendationsOnlyOnDemand": true,
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "all"
+}
