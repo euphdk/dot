@@ -1,6 +1,14 @@
 {
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "all",
+  "editor.fontLigatures": true,
+  "editor.rulers": [
+    80
+  ],
+  "editor.multiCursorModifier": "ctrlCmd",
+  "zenMode.hideTabs": false,
   "window.zoomLevel": 0,
   "jenkins-runner.hostConfigs": {
     "local": {
@@ -31,6 +39,8 @@
   "extensions.ignoreRecommendations": true,
   "extensions.showRecommendationsOnlyOnDemand": true,
   "python.formatting.provider": "black",
-  "editor.formatOnSave": true,
-  "editor.renderWhitespace": "all"
+  "workbench.tips.enabled": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.openPositioning": "last",
+  "zenMode.hideLineNumbers": false
 }

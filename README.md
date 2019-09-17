@@ -19,6 +19,9 @@ xargs -I{} mv {} .config-backup/{}
 # Checkout and don't show untracked files when running config status
 config checkout
 config config --local status.showUntrackedFiles no
+
+# Install vscode extensions
+fix-vscode-extensions.sh
 ```
 
 ```bash
