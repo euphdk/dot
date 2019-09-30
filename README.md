@@ -32,5 +32,6 @@ config push
 config push --set-upstream origin master
 ```
 
+VSCODE font: <https://github.com/microsoft/cascadia-code/releases>
 
 <https://www.atlassian.com/git/tutorials/dotfiles>
