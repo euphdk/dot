@@ -43,3 +43,8 @@ indent_size = 2
 [{*.am,*.mk,Makefile,makefile}]
 indent_style = tab
 indent_size = 4
+
+[Dockerfile]
+indent_style = space
+indent_size = 4
+
