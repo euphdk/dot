@@ -18,3 +18,4 @@ code --install-extension ms-vscode.sublime-keybindings --force
 code --install-extension wayou.vscode-todo-highlight --force
 code --install-extension platformio.platformio-ide --force
 code --install-extension vscode-yaml --force
+code --install-extension yzhang.markdown-all-in-one --force
